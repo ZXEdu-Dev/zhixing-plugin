@@ -1,0 +1,1 @@
+var t="_Button_1osv8_1";const e=({options:e})=>{const{input:a,onExecuted:c}=e,[o,u]=React.useState(),[n,s]=React.useState();return React.useEffect((()=>{try{const t=JSON.parse(a);t.text&&u(t.text),t.output&&s(t.output)}catch(t){}}),[a]),React.createElement("button",{type:"button",onClick:()=>{c(n)},className:t},o)};export{e as default};
