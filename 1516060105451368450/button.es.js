@@ -1,0 +1,1 @@
+var t="_Button_1dh1e_1";export default({options:e})=>{const{input:n,onExecuted:o}=e,r=React.useMemo((()=>{try{const t=JSON.parse(n);return Array.isArray(t)?t:[]}catch(t){return console.log(t),[]}}),[n]),[u,a]=React.useState(0);return 0==r.length?null:React.createElement("button",{type:"button",onClick:()=>{o(r[u].output),a((t=>(t+1)%r.length))},className:t},r[u].text)};
